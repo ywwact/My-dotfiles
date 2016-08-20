@@ -55,7 +55,7 @@ inoremap <c-d> <esc>ddO
 inoremap <c-l> <esc>bviwUea
 " nnoremap <c-l> viwUe
 " edit .vimrc the fast way
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit $VIMRC<cr>
 nnoremap <C-f> :JavaCorrect<CR>
 inoremap <C-e> <C-o>a
 nnoremap H ^
@@ -65,6 +65,10 @@ nnoremap L $
 set background=dark
 colorscheme solarized
 " colorscheme molokai
+
+" italic comment
+" highlight Comment cterm=italic
+
 " let g:solarized_termcolors=256
 " 代码折叠
 " 基于缩进或语法进行代码折叠
@@ -124,7 +128,9 @@ autocmd FileType python nnoremap <silent> <F5> :!clear;python3 %<CR>
 " 如何是Java 文件，按F9后执行程序
 autocmd FileType java nnoremap <silent> <F5> :w<CR>:!clear<CR>:Java<CR>
 " 执行swipl文件
-autocmd FileType swipl nnoremap <silent> <F5> :!clear;swipl %<CR>
+autocmd FileType prolog nnoremap <silent> <F5> :!clear;swipl %<CR>
+" set *.pro to prolog filetype
+au BufNewFile,BufRead,BufReadPost *.pro set filetype=prolog
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
   exe "normal mz"
@@ -142,7 +148,8 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
 " let vundle manage vundle
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
+" Plugin 'gmarik/vundle'
 
 " list all plugins that you'd like to install here
 Plugin 'kien/ctrlp.vim' " fuzzy find files
@@ -443,5 +450,5 @@ function! <SID>LocationNext()
 endfunction                                             
 nmap <silent> [e :<C-u>call <SID>LocationNext()<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd! bufwritepost .vimrc source % | AirlineRefresh
+autocmd! bufwritepost .vimrc source $VIMRC | AirlineRefresh
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
