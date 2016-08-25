@@ -119,6 +119,7 @@ alias ssh="TERM=xterm-256color ssh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export TERM=xterm-256color-italic
 export VIMRC=~/Documents/dotfile/vim.vimrc
+export ZSHRC=~/Documents/dotfile/zsh.zshrc
 # function kill(){
 #     command tmux kill-session -t dev || command tmux kill-session -t she
 # }
