@@ -3,6 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 cd ~/Documents   "Change the working dir to 'Documents'
 
+
 syntax enable
 syntax on
 set autoread   "Detect when a file is changed
