@@ -128,11 +128,7 @@ autocmd FileType python nnoremap <silent> <F5> :!clear;python3 %<CR>
 " 如何是Java 文件，按F9后执行程序
 autocmd FileType java nnoremap <silent> <F5> :w<CR>:!clear<CR>:Java<CR>
 " 执行swipl文件
-<<<<<<< HEAD
 " autocmd FileType prolog nnoremap <silent> <F5> :!clear;swipl -f %<CR>
-=======
-autocmd FileType prolog nnoremap <silent> <F5> :!clear;swipl %<CR>
->>>>>>> 115b82fa94c25ca61749c7c96065198ccb101dd2
 " set *.pro to prolog filetype
 au BufNewFile,BufRead,BufReadPost *.pro set filetype=prolog
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
@@ -333,11 +329,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
-<<<<<<< HEAD
 " let g:UltiSnipsListSnippets="<c-h>"
-=======
-let g:UltiSnipsListSnippets="<c-h>"
->>>>>>> 115b82fa94c25ca61749c7c96065198ccb101dd2
 
 let g:ycm_complete_in_comments = 1 
 let g:ycm_seed_identifiers_with_syntax = 1 
