@@ -188,7 +188,6 @@ filetype plugin indent on
 set laststatus=2
 " let g:airline_theme='molokai'
 let g:airline_theme='distinguished'
-" let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 let g:airline_detect_modified=1
