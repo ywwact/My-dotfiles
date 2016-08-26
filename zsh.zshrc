@@ -124,7 +124,7 @@ function lazygit(){
     git push
 }
 function ks(){
-    names=`tmux list-sessions`|| kill -INT $$
+    names=`tmux list-sessions`|| return 1
     if test $# -eq 0; then
         sessions=`echo "$names" | cut -d ':' -f1`
         while read -r line; do
