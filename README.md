@@ -1,2 +1,2 @@
-# Myvimrc
-This is the back up of my .vimrc.
+# My dotfiles
+This is the back up of my dotfiles.
