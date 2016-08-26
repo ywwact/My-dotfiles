@@ -123,4 +123,17 @@ function lazygit(){
     git commit -am "$1"
     git push
 }
+function ks(){
+    names=`tmux list-sessions`|| kill -INT $$
+    if test $# -eq 0; then
+        sessions=`echo "$names" | cut -d ':' -f1`
+        while read -r line; do
+            tmux kill-session -t "$line"
+        done <<< "$sessions"
+    else
+        for line in "$@"; do
+            tmux kill-session -t "$line"
+        done
+    fi
+}
 
