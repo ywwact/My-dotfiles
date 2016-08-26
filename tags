@@ -32,8 +32,9 @@ BufcloseCloseIt	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^function! <SID
 DeleteTrailingWS	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^func! DeleteTrailingWS()$/;"	f	language:Vim
 delimitMate_expand_cr	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let delimitMate_expand_cr = 1$/;"	v	language:Vim
 f	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nmap f <Plug>(easymotion-overwin-f)$/;"	m	language:Vim
+g:airline_detect_modified	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_detect_modified=1$/;"	v	language:Vim
 g:airline_powerline_fonts	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
-g:airline_theme	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_theme='solarized'$/;"	v	language:Vim
+g:airline_theme	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_theme='distinguished'$/;"	v	language:Vim
 g:EasyMotion_do_mapping	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:EasyMotion_do_mapping = 0 " Disable default mappings$/;"	v	language:Vim
 g:EasyMotion_smartcase	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:EasyMotion_smartcase = 1$/;"	v	language:Vim
 g:EasyMotion_smartcase	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:EasyMotion_smartcase = 1$/;"	v	language:Vim
