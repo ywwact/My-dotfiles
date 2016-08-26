@@ -95,16 +95,12 @@ KEYTIMEOUT=1
 alias ll='ls -l'
 alias la='ls -a'
 alias c='clear'
-# alias kild='tmux kill-session -t dev' 
-# alias kils='tmux kill-session -t she' 
 alias python='python3'
 #alias javac="javac -J-Dfile.encoding=utf8"
 alias -s html=mvim   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
 alias -s rb=mvim     # 在命令行直接输入 ruby 文件，会在 TextMate 中打开
 # alias -s py=vim       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-# alias she='tmux attach-session -t she'
-# alias dev='tmux attach-session -t dev'
 #alias -s gz='tar -xzvf'
 #alias -s tgz='tar -xzvf'
 #alias -s zip='unzip'
@@ -122,12 +118,9 @@ export TERM=xterm-256color-italic
 export VIMRC=~/Documents/dotfile/vim.vimrc
 export ZSHRC=~/Documents/dotfile/zsh.zshrc
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-# function kill(){
-#     command tmux kill-session -t dev || command tmux kill-session -t she
-# }
 function lazygit(){
-    git add $1
-    git commit -am "$2"
+    git add .
+    git commit -am "$1"
     git push
 }
 
