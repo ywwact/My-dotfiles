@@ -92,7 +92,9 @@ bind -r L resize-pane -R 10
 
 # enable mouse support for switching panes/windows
 setw -g mouse on
+# setw -g mode-mouse on
 # set-option -g -q mouse on
+# set -g mouse-mode on
 
 bind-key -T root PPage if-shell -F "#{alternate_on}" "send-keys PPage" "copy-mode -e; send-keys PPage"
 bind-key -t vi-copy PPage page-up

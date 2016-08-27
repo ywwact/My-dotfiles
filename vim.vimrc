@@ -11,6 +11,7 @@ let mapleader=','
 let g:mapleader=','
 " Fast saving
 nnoremap <leader>w :w!<cr>
+nnoremap <leader>q :wq!<cr>
 set mouse=a
 set so=7  "Set 7 lines to the cursor - when moving vertically using j/k
 set cmdheight=1  "Height of the command bar 

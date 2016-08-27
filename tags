@@ -20,6 +20,7 @@
 <Leader>j	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^map <Leader>j <Plug>(easymotion-j)$/;"	m	language:Vim
 <Leader>k	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^map <Leader>k <Plug>(easymotion-k)$/;"	m	language:Vim
 <leader>l	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>l :bnext<cr>$/;"	m	language:Vim
+<leader>q	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nnoremap <leader>q :wq!<cr>$/;"	m	language:Vim
 <leader>s?	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>s? z=$/;"	m	language:Vim
 <leader>sa	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>sa zg$/;"	m	language:Vim
 <leader>sn	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>sn ]s$/;"	m	language:Vim
