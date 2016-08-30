@@ -16,6 +16,7 @@
 <leader>bd	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>bd :Bclose<cr>:tabclose<cr>gT$/;"	m	language:Vim
 <leader>cd	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nnoremap <leader>cd :lcd %:p:h<cr>:pwd<cr>$/;"	m	language:Vim
 <leader>ev	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nnoremap <leader>ev :vsplit $VIMRC<cr>$/;"	m	language:Vim
+<leader>f	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nmap <leader>f <Plug>(easymotion-lineforward)$/;"	m	language:Vim
 <leader>h	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^noremap <leader>h :bprevious<cr>$/;"	m	language:Vim
 <Leader>j	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^map <Leader>j <Plug>(easymotion-j)$/;"	m	language:Vim
 <Leader>k	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^map <Leader>k <Plug>(easymotion-k)$/;"	m	language:Vim
@@ -32,7 +33,6 @@ Bclose	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^command! Bclose call <S
 BufcloseCloseIt	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^function! <SID>BufcloseCloseIt()$/;"	f	language:Vim
 DeleteTrailingWS	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^func! DeleteTrailingWS()$/;"	f	language:Vim
 delimitMate_expand_cr	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let delimitMate_expand_cr = 1$/;"	v	language:Vim
-f	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^nmap f <Plug>(easymotion-overwin-f)$/;"	m	language:Vim
 g:airline_detect_modified	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_detect_modified=1$/;"	v	language:Vim
 g:airline_powerline_fonts	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
 g:airline_theme	/Users/wanghongkuan/Documents/dotfile/vim.vimrc	/^let g:airline_theme='distinguished'$/;"	v	language:Vim

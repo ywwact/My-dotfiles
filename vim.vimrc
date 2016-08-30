@@ -6,7 +6,7 @@ cd ~/Documents   "Change the working dir to 'Documents'
 syntax enable
 syntax on
 " set autoread   "Detect when a file is changed
-"把'\'map为','
+" 把'\'map为','
 let mapleader=','
 let g:mapleader=','
 " Fast saving
@@ -296,7 +296,8 @@ let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
 " Jump to anywhere you want with minimal keystrokes, with just one key binding.
 " `s{char}{label}`
-nmap f <Plug>(easymotion-overwin-f)
+" nmap f <Plug>(easymotion-overwin-f)
+nmap <leader>f <Plug>(easymotion-lineforward)
 " or
 " `s{char}{char}{label}`
 " Need one more keystroke, but on average, it may be more comfortable.
