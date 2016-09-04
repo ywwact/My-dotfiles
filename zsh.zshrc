@@ -111,6 +111,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias swipl='/Applications/SWI-Prolog.app/Contents/MacOS/swipl'
 alias o="open"
 alias ssh="TERM=xterm-256color ssh"
+alias unsw="TERM=xterm-256color ssh z5095588@login.cse.unsw.edu.au"
 alias mux="tmuxinator"
 # Must be in the end
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
