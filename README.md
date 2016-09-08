@@ -42,7 +42,7 @@ To totally install my vimrc, 5 steps are needed.
     ./install.sh
 
     Change the font for your Macvim app and terminal app to powerline font.
-# Change default vim to macvim in for terminal user
+# Change default vim to Macvim for terminal user
 Add the follow line to your .bashrc or .zshrc which is located in your home
 derictory.
 
