@@ -23,8 +23,7 @@ To totally install my vimrc, 5 steps are needed.
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py
 
-=> Install Colorscheme
-
+=> Install Colorscheme                                                          
     My color scheme is solarized. To change the color scheme of vim, you need to
     download the official file in http://ethanschoonover.com/solarized .
     Unzip the file, find the scheme for vim which is named "solarized.vim",
