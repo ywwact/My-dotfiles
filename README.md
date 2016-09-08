@@ -14,7 +14,6 @@ To totally install my vimrc, 5 steps are needed.
     $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
     Then open Macvim type ":" followed by "PluginInstall" and press return.
-
 => Install YouCompleteMe
     If you don't need C family support, copy the 2 lines command below:
 
@@ -26,6 +25,7 @@ To totally install my vimrc, 5 steps are needed.
     download the official file in http://ethanschoonover.com/solarized .
     Unzip the file, find the scheme for vim which is named "solarized.vim",
     move or copy the file into the following folder
+
     /Applications/MacVim.app/Contents/Resources/vim/runtime/colors
 
 => Install font to support airline
